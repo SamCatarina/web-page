@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: rgba(138, 138, 138, 0.199);
+}
+
+.navbar-brand img{
+    padding-left: 10px;
+    width: 200px;
+}
+
+.navMain{
+    justify-content: flex-end;
+    padding-right: 200px;
+}
+
+.navLinks li a{
+    color: white;
+    
+}
+
+.main{
+    background-image: url("./images/background.jpg");
+    background-size: cover;
+    height: 100vh;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-elements{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.main-title{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 204px;
+    color: white;
+}
+.main-title h1{
+    font-size: 34px;
+}
+
+.title01{
+    margin-top: 100px;
+}
+
+.title02{
+    margin-left: 50px;
+}
+
+.main-line{
+    width: 611px;
+    height: 1px;
+    background-color: white;
+}
+
+.main-text{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.main-text p{
+    width: 478px;
+    margin-right: 143px;
+    font-size: 20px;
+    color: white;
+    margin-top: 100px;
+}
+
+.navbar-toggler{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    
+}
+
+.toggle-line{
+    width: 37px;
+    height: 2px;
+    margin-top: 7px;
+    background-color: white;
+}
+
+.middle-line{
+    margin-left: 5px;
+}
+
+@media screen and (max-width:760px) {
+    .main-title{
+        padding-left: 30px;
+    }
+    .main-title h1{
+        font-size: 24px;
+    }
+    .main-line{
+        width:291px;
+    }
+    .main-text p{
+        margin-right: 30px;
+        width: 287px;
+        font-size: 20px;
+
+    }
+}
